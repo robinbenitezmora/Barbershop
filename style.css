@@ -1,0 +1,49 @@
+.main-title {
+  padding-left: 2rem;
+}
+.central-title {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+}
+
+em strong {
+  color: #f00;
+}
+
+#mission {
+  font-size: 20px;
+}
+
+#banner {
+  width: 100%;  
+}
+
+.items {
+  font-style: italic;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width:25%;
+  margin-right: 10%;
+}
+
+.differentials {
+  background: #fff;
+  padding: 2rem;
+}
+
+.main {
+  background: #ccc;
+  padding: 1.25rem;
+}
+
+.imgdifferentials {
+  width: 50%;
+}
