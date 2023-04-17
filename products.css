@@ -17,9 +17,85 @@ nav li {
 }
 
 nav a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #0008ff;
+  text-decoration: underline;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.products li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  border: 3px solid #000;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+}
+
+.products li:hover {
+  border: 3px solid #0008ff;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.products li:active {
+  border-color: aqua;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out;
+}
+
+.products h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.products li:hover h2 {
+  font-size: 2.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.products img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+footer {
+  background-image: url(imagenes/bg.jpg);
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 2rem;
 }
