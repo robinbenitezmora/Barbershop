@@ -87,3 +87,15 @@ nav a:hover {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+footer {
+  background-image: url(imagenes/bg.jpg);
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 2rem;
+}
