@@ -22,28 +22,37 @@
   <main>
     <form action="" class="formulary">
       <label for="name">Name and Last name</label>
-      <input type="text" id="name" class="input-pattern">
+      <input type="text" id="name" class="input-pattern" placeholder="Full name" required>
 
       <label for="email">Email</label>
-      <input type="text" id="email" class="input-pattern">
+      <input type="email" id="email" class="input-pattern" placeholder="Email" required>
 
       <label for="phone">Telephone</label>      
-      <input type="text" id="phone" class="input-pattern">
+      <input type="tel" id="phone" class="input-pattern" placeholder="(+XX) Telephone" required>
 
       <label for="message">Message</label>
-      <textarea name="message" id="message" cols="80" rows="10" class="input-pattern"></textarea>
+      <textarea name="message" id="message" cols="80" rows="10" class="input-pattern" placeholder="Your message" required></textarea>
 
-      <div>
-        <p>How would you like to be contacted?</p>
+      <fieldset>
+        <legend>How would you like to be contacted?</legend>
 
         <label for="radio-email"><input type="radio" id="radio-email" name="contact" value="email">Email</label>
   
         <label for="radio-telephone"><input type="radio" id="radio-telephone" name="contact" value="telephone">Telephone</label>
   
-        <label for="radio-whatsApp"><input type="radio" id="radio-whatsApp" name="contact" value="whatsApp">WhatsApp</label>
-      </div>
+        <label for="radio-whatsApp"><input type="radio" id="radio-whatsApp" name="contact" value="whatsApp" checked>WhatsApp</label>
+      </fieldset>
 
-      <label for="" class="checkbox"><input type="checkbox">Would you like receive news about Alura Barbshop?</label>
+      <fieldset>
+        <legend>What is the time you would like to be attended?</legend>
+        <select name="" id="">
+          <option value="">Morning</option>
+          <option value="">Afternoon</option>
+          <option value="">Evening</option>
+        </select>  
+      </fieldset>
+
+      <label for="" class="checkbox"><input type="checkbox" checked>Would you like receive news about Alura Barbshop?</label>
 
       <input type="submit">
     </form>
