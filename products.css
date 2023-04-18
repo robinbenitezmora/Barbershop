@@ -144,3 +144,24 @@ form legend {
   transition: all 0.3s ease-in-out;
   transform: scale(1.1);
 }
+
+table {
+  display: block;
+  justify-content: flex-start;
+  width: 50%;
+  margin: 2rem 11rem;
+  border-collapse: collapse;
+}
+
+thead {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #555;
+  color: #fff;
+}
+
+td,
+th {
+  padding: 0.8rem;
+  border: 1px solid #000;
+}
