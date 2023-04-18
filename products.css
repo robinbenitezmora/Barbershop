@@ -99,3 +99,26 @@ footer {
   color: #fff;
   margin-top: 2rem;
 }
+
+.formulary {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+form label {
+  display: block;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+
+form input {
+  display: block;
+  width: 50%;
+  padding: 1rem 1.5rem;
+  margin: 0 0 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
