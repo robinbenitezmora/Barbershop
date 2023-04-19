@@ -29,6 +29,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
+main {
+  background-color: #ccc;
+  padding: 2rem 8rem 0;
+}
+
 .products {
   display: flex;
   justify-content: space-between;
@@ -164,4 +169,33 @@ td,
 th {
   padding: 0.8rem;
   border: 1px solid #000;
+}
+
+.banner {
+  width: 100%;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.main strong {
+  font-weight: bold;
+}
+
+.main em {
+  font-style: italic;
+}
+
+.imgdifferentials {
+  width: 65%;
+  margin: 2rem 0 0 0;
 }

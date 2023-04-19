@@ -5,38 +5,51 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alura Barbershop</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="products.css">
 </head>
 <body>
 
   <header>
-    <h1 class="main-title">
-      Alura Barbershop
-    </h1>
+    <div class="box">
+      <h1><img src="imagenes/logo.png" alt="logo"></h1>
+      <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </nav>  
+    </div>
   </header>
 
-  <img id="banner" src="./banner.jpg" alt="image">
+  <img class="banner" src="./banner.jpg" alt="image">
 
-  <div class="main">
-    <h2 class="central-title">About Alura Barbershop</h2>
+  <main>
+    <section class="main">
+      <h2 class="main-title">About Alura Barbershop</h2>
+      
+      <p>Located in the heart of the city, <strong>Alura Barbershop</strong>  brings to the market the best for your hair and beard. Founded in 2020, Alura Barbershop already stands out in the city and conquers new clients daily. 
+      </p>
+      <p id="mission"><em>Our mission is: <strong>"To provide self-esteem and quality of life to our customers"</strong> </em></p>
+      <p>We offer experienced professionals who are constantly observing the changes and movements in the fashion world, in order to offer our customers the latest trends. The service has a standard of excellence and agility, ensuring quality and satisfaction of our customers.</p>
+    </section>
+  
+    <section class="differentials">
+      <h3 class="main-title">Differentials</h3>
     
-    <p>Located in the heart of the city, <strong>Alura Barbershop</strong>  brings to the market the best for your hair and beard. Founded in 2020, Alura Barbershop already stands out in the city and conquers new clients daily. 
-    </p>
-    <p id="mission"><em>Our mission is: <strong>"To provide self-esteem and quality of life to our customers"</strong> </em></p>
-    <p>We offer experienced professionals who are constantly observing the changes and movements in the fashion world, in order to offer our customers the latest trends. The service has a standard of excellence and agility, ensuring quality and satisfaction of our customers.</p>
-  </div>
+      <ul>
+        <li class="items">Customarize attention for clients</li>
+        <li class="items">Special space</li>
+        <li class="items">Location</li>
+        <li class="items">Certify professionals</li>
+      </ul>
+    
+      <img src="./differentials.jpg" class="imgdifferentials" alt="barber">
+    </section>  
+  </main>
 
-<div class="differentials">
-  <h3 class="central-title">Differentials</h3>
-
-  <ul>
-    <li class="items">Customarize attention for clients</li>
-    <li class="items">Special space</li>
-    <li class="items">Location</li>
-    <li class="items">Certify professionals</li>
-  </ul>
-
-  <img src="./differentials.jpg" class="imgdifferentials" alt="barber">
-</div>
+<footer>
+  <img src="imagenes/logo-blanco.png" alt="logo footer">
+  <p class="copyright">&copy Copyrigth Alura Barbershop 2022</p>
+</footer>
 </body>
 </html>
