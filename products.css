@@ -205,6 +205,16 @@ th {
   margin: 1.5rem 1.5rem 1.5rem 0;
 }
 
+.map {
+  padding: 3em 0;
+}
+
+.map p {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
 .imgdifferentials {
   width: 65%;
   margin: 2rem 0 0 0;
