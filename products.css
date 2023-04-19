@@ -179,12 +179,12 @@ th {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  clear: left;
 }
 
 .main p {
   font-size: 1.5rem;
-  text-align: center;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .main strong {
@@ -193,6 +193,12 @@ th {
 
 .main em {
   font-style: italic;
+}
+
+.tools {
+  width: 9rem;
+  float: left;
+  margin: 1.5rem 1.5rem 1.5rem 0;
 }
 
 .imgdifferentials {
