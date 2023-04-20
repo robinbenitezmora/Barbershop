@@ -241,20 +241,26 @@ th {
 }
 
 .differentials-image {
-  width: 45%;
+  width: 55%;
+  box-shadow: 10px 10px 20px 10px #000;
+}
+
+.differentials-image:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
 }
 
 .differentials-list {
-  width: 55%;
+  width: 45%;
   padding: 0 auto;
 }
 
 .items {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   list-style: disc;
   line-height: 1.5rem;
   height: auto;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
 }
 
 .items:first-child {
