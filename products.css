@@ -33,11 +33,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  background-color: #ccc;
-  padding: 2rem 8rem 0;
-}
-
 .products {
   display: flex;
   justify-content: space-between;
@@ -179,6 +174,13 @@ th {
   width: 100%;
 }
 
+.main {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .main-title {
   font-size: 3rem;
   font-weight: bold;
@@ -207,6 +209,7 @@ th {
 
 .map {
   padding: 3em 0;
+  background: linear-gradient(#fefefe, #888);
 }
 
 .map p {
@@ -215,7 +218,53 @@ th {
   text-align: center;
 }
 
-.imgdifferentials {
-  width: 65%;
-  margin: 2rem 0 0 0;
+.map-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.differentials {
+  padding: 3em 0;
+  background: #888;
+}
+
+.differentials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.differentials-image {
+  width: 45%;
+}
+
+.differentials-list {
+  width: 55%;
+  padding: 0 auto;
+}
+
+.items {
+  font-size: 1.2rem;
+  list-style: disc;
+  line-height: 1.5rem;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.items:first-child {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0 0 0;
 }
