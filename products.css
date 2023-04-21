@@ -295,7 +295,25 @@ th {
   .map-container {
     width: 100%;
   }
+  
+  .formulary {
+    width: 70%;
+    margin: 2rem auto;
+  }
 
+  .input-pattern {
+    width: 85%;
+  }
+
+  .submit {
+    width: 50%;
+  }
+
+  table {
+    display: inline-block ;
+    margin: 1rem 3rem;
+  }
+  
   .differentials-container {
     flex-direction: column;
     width: 80%;
