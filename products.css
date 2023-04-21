@@ -274,3 +274,43 @@ th {
   width: 50%;
   margin: 4rem auto;
 }
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: auto;
+  }
+
+  .products {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .products li {
+    width: 100%;
+    margin: 0;
+  }
+
+  .map-container {
+    width: 100%;
+  }
+
+  .differentials-container {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .differentials-image {
+    width: 100%;
+  }
+
+  .differentials-list {
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+  .video {
+    width: 100%;
+  }  
+}
