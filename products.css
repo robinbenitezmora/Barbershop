@@ -227,7 +227,7 @@ th {
 }
 
 .differentials {
-  padding: 3em 0;
+  padding: 3em 0 0.5rem 0;
   background: #888;
 }
 
@@ -235,7 +235,7 @@ th {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 60%;
+  width: 75%;
   height: auto;
   margin: 2rem auto;
 }
@@ -271,6 +271,6 @@ th {
 .video {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin: 1rem 0 0 0;
+  width: 50%;
+  margin: 4rem auto;
 }
